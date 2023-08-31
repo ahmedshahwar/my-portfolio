@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>Ahmed Shahwar - Portfolio</title>
+        <link rel="stylesheet" href="./style.css" />
+        <script src="./script.js"></script>
+    </head>
+
+    <body>
+        <!-- Navigation Bar -->
+        <nav>
+            <div id="home">
+                <div class="profile_name">
+                    AHMED SHAHWAR
+                    <div class="contact_info">
+                        <img src="html_finalprojimages/envelope.png" alt="https://icons8.com/icon/124377/circled-envelope"/> ahmedshahwarr@gmail.com
+                    </div>
+                    <div style="clear:both;"></div>
+                    <div class="contact_info">
+                        <img src="html_finalprojimages/phone.png" alt="https://icons8.com/icon/124377/circled-envelope"/> +92-312-3456789
+                    </div>
+                </div>
+                <div class="topdiv">
+                    <a class="topmenu" href="#about-me">About Me</a>
+                    <a class="topmenu" href="#skills">Skills</a>
+                    <a class="topmenu" href="#projects">Projects</a>
+                    <a class="topmenu" href="#recommendations">Recommendations</a>
+                </div>
+            </div>
+        </nav>
+
+        <!-- About Me -->
+        <section id="about-me" class="container">
+            <div>
+                <img src="html_finalprojimages/avatar.png" class="profile_image"/>
+            </div>
+
+            <div>
+                <h1>
+                    Hi, I'm Ahmed Shahwar!
+                </h1>
+                <p>
+                    I am a Computer Science student at Bahria University, and I am expected to complete my bachelors degree in 2025. 
+                    Currently, I am pursuing a Full Stack Developer course from IBM. I am passionate about technology and enjoy 
+                    learning new things every day.
+                </p>
+            </div>
+        </section>
+
+        <!-- Skills -->
+        <section id="skills">
+            <h2>Skills</h2>
+            <div style="clear:both;"></div>
+
+            <div class="all_skills">
+                <div class="skill">
+                    <img src="html_finalprojimages/C++.png">
+                    <h6>C++</h6>
+                    <p>3 years experience</p>
+                </div>
+
+                <div class="skill">
+                    <img src="html_finalprojimages/Python.png">
+                    <h6>Python</h6>
+                    <p>2 years experience</p>
+                </div>
+                
+                <div class="skill">
+                    <img src="html_finalprojimages/html5.png" />
+                    <h6>HTML</h6>
+                    <p>1.5 years experience</p>
+                </div>
+
+                <div class="skill">
+                    <img src="html_finalprojimages/CSS3.png">
+                    <h6>CSS3</h6>
+                    <p>1.5 years experience</p>
+                </div>
+
+                <div class="skill">
+                    <img src="html_finalprojimages/js.jpeg" />
+                    <h6>JavaScript</h6>
+                    <p>1 year experience</p>
+                </div>
+
+                <div class="skill">
+                    <img src="html_finalprojimages/SQL.png" />
+                    <h6>SQL - Oracle</h6>
+                    <p>6 months experience</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects -->
+        <section class="projects" id="projects">
+            <h2>
+                Projects
+            </h2>
+            <div style="clear:both;"></div>
+
+            <div id="projects-container" class="projects-container">
+                <div class="project-card">
+                    <h3>Restaurant Management System</h3>
+                    <ul>
+                        <li>Developed a console based Restaurant Management System using the concept of OOP - Object Oriented Programming 
+                            in C++ </li>
+                    </ul>
+                </div>
+                <hr>
+                <div class="project-card">
+                    <h3>Compiler</h3>
+                    <ul>
+                        <li>Developed a Compiler using C++ as the back-end programming language and used HTML, CSS, JavaScript, Python, 
+                            and Django for the front-end </li>
+                    </ul>
+                </div>
+                <hr>
+                <div class="project-card">
+                    <h3>Compression Algorithm</h3>
+                    <ul>
+                        <li>Developed the back-end code for Huffman Compression Algorithm in C++</li>
+                    </ul>
+                </div>
+                <hr>
+                <div class="project-card">
+                    <h3>Virtual Learning Platform</h3>
+                    <ul>
+                        <li>Developed the database for a Virtual Learning Platform using SQL</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <div style="clear:both;"></div>
+
+        <!-- Recommendations -->
+        <section id="recommendations">
+            <h2>Recommendations</h2>
+            <div style="clear:both;"></div>
+            <div class="all_recommendations" id="all_recommendations">
+                <div class="recommendation">
+                    <span>&#8220;</span>
+                    I had the pleasure of working with Ahmed on a group project, and I was impressed by their 
+                    technical skills and attention to detail. They were always willing to help out and went 
+                    above and beyond to ensure the project’s success.
+                    <span>&#8221;</span>
+                </div>
+                <div class="recommendation">
+                    <span>&#8220;</span>
+                    Ahmed is a highly motivated individual who is passionate about technology. They have a 
+                    strong work ethic and are always eager to learn new things. I have no doubt that they 
+                    will excel in their future endeavors.
+                    <span>&#8221;</span>
+                </div>
+                <div class="recommendation">
+                    <span>&#8220;</span>
+                    I had the opportunity to mentor Ahmed during their Full Stack Developer course, and I was 
+                    impressed by their dedication and enthusiasm. They were always eager to learn and took 
+                    feedback constructively. I believe they have a bright future ahead of them.
+                    <span>&#8221;</span>
+                </div>
+                <div class="recommendation">
+                    <span>&#8220;</span>
+                    Ahmed is an excellent team player who is always willing to go the extra mile to help out. 
+                    They have a strong grasp of programming concepts and are quick to learn new technologies. 
+                    I highly recommend them for any technical role.
+                    <span>&#8221;</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Recommendation Form -->
+        <section id="contact">
+            <div class="flex_center">
+                <fieldset>
+                    <legend class="introduction">Leave a Recommendation</legend>
+                    <input type="text" placeholder="Name (Optional)"> <br />
+                    <textarea id="new_recommendation" cols="500" rows="10" placeholder="Message"></textarea>
+                    <div class="flex_center">
+                        <button id="recommend_btn" onclick="addRecommendation()">Submit</button>
+                    </div>
+                </fieldset>
+            </div>
+        </section>
+
+        <div class="iconbutton">
+            <a href="#home">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="white" width="63px">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M15 11.25l-3-3m0 0l-3 3m3-3v7.5M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                  </svg>
+            </a>
+        </div>
+
+        <div class="popup" id="popup" class="flex_center">
+            <img src="html_finalprojimages/checkmark--outline.svg" />
+            <h3>Thank You for leaving a Recommendation</h3>
+            <button onclick="showPopup(false)">Ok</button>
+        </div>
+    </body>
+
+</html>
